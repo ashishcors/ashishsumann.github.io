@@ -25,4 +25,4 @@ jobs:
         git config --local user.email "ashishsumancse@gmail.com"
         git config --local user.name "ashishsumann"
         git add build/web && git commit -m "Commit release build CI"
-        git push origin `git subtree split --prefix build/web release`:gh-pages --force
+        git push origin `git subtree split --prefix build/web release`:github-pages --force
